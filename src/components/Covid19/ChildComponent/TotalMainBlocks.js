@@ -6,7 +6,7 @@ const TotalMainBlocks = ({ totalData = {} }) => {
     <Row>
       <Col xl="3" lg="3" md="3" sm="6" xs="6">
         <Card body inverse color="danger" className="main-div">
-          <CardTitle className="font-weight-700">Confirmed</CardTitle>
+          <CardTitle className="font-weight-700 text-uppercase">Confirmed</CardTitle>
           <CardText className="main-div-value font-weight-700">
             <div>
               {totalData.confirmed}
@@ -19,7 +19,7 @@ const TotalMainBlocks = ({ totalData = {} }) => {
       </Col>
       <Col xl="3" lg="3" md="3" sm="6" xs="6">
         <Card body inverse color="success" className="main-div">
-          <CardTitle className="font-weight-700">Active</CardTitle>
+          <CardTitle className="font-weight-700 text-uppercase">Active</CardTitle>
           <CardText className="main-div-value font-weight-700">
             <div>
               {totalData.active}
@@ -32,7 +32,7 @@ const TotalMainBlocks = ({ totalData = {} }) => {
       </Col>
       <Col>
         <Card body inverse color="info" className="main-div">
-          <CardTitle className="font-weight-700">Recovered</CardTitle>
+          <CardTitle className="font-weight-700 text-uppercase">Recovered</CardTitle>
           <CardText className="main-div-value font-weight-700">
             <div>
               {totalData.recovered}
@@ -45,7 +45,7 @@ const TotalMainBlocks = ({ totalData = {} }) => {
       </Col>
       <Col xl="3" lg="3" md="3" sm="6" xs="6">
         <Card body inverse color="warning" className="main-div">
-          <CardTitle className="font-weight-700">Deaths</CardTitle>
+          <CardTitle className="font-weight-700 text-uppercase">Deaths</CardTitle>
           <CardText className="main-div-value font-weight-700">
             <div>
               {totalData.deaths}

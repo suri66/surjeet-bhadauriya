@@ -22,8 +22,6 @@ function Slider(props) {
         </div>
         <img
           src="/img/slide1-left.png"
-          width="540"
-          height="540"
           className="slider-img"
           alt="surjeet-bhadauriya"
         />
@@ -38,7 +36,7 @@ function Slider(props) {
           </a>
           <br />
           <br />
-          <a
+          <a className="mobile-view"
             href="https://twitter.com/catchme822"
             target="blank"
           >
@@ -46,7 +44,7 @@ function Slider(props) {
           </a>
           <br />
           <br />
-          <a
+          <a className="mobile-view"
             href="https://in.linkedin.com/in/surjeet-bhadauriya-b26a1183"
             target="blank"
           >

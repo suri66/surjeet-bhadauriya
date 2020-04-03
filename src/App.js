@@ -13,7 +13,10 @@ const App = (
       <Header />      
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/users" component={AboutPage} />        
+        <Route path="/about" component={HomePage} />        
+        <Route path="/contact" component={HomePage} />        
+        <Route path="/services" component={HomePage} />        
+        <Route path="/portfolio" component={HomePage} />        
         <Route path="/covid19" component={Covid19Page} />        
         {/* <Route component={Notfound} /> */}
       </Switch>
