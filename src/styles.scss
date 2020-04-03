@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@mixin textTransform($value) {
+  text-transform: $value;  
+}
+
+@mixin fontWeight($value) {
+  font-weight: $value;  
+}
+
+@mixin marginTop($value) {
+  margin-top: $value;   
+}
+
+@mixin fontSize($value) {
+  font-size: $value;   
+}
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.row-margin-off {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.pull-right {
+  float: right;
+}
+
+.text-uppercase {
+  @include textTransform(uppercase);
+}
+
+.text-capitalize {
+  @include textTransform(capitalize);
+}
+
+.font-weight-600 {
+  @include fontWeight(600);
+}
+
+.font-weight-700 {
+  @include fontWeight(700);
+}
+
+.font-weight-800 {
+  @include fontWeight(800);
+}
+
+.margin-top-10 {
+  @include marginTop(10px);
+}
+
+.margin-top-20 {
+  @include marginTop(20px);
+}
+
+.margin-top-30 {
+  @include marginTop(30px);
+}
+
+.margin-top-40 {
+  @include marginTop(40px);
+}
+
+.margin-top-50 {
+  @include marginTop(50px);
+}
+
+.font-size-12 {
+  @include fontSize(12px);
+}
+
+.font-size-15 {
+  @include fontSize(15px);
+}
+
+.font-size-18 {
+  @include fontSize(18px);
+}
+
+.font-size-20 {
+  @include fontSize(20px);
+}
+
+.font-size-24 {
+  @include fontSize(24px);
+}

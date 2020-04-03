@@ -1,0 +1,20 @@
+.covid19-main-div {
+    color: #000;
+    padding: 50px 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-div {
+    font-family: 'Open Sans', sans-serif;   
+}
+
+.main-div-value {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 488px) {
+    .covid19-main-div {
+        padding: 50px 8px;
+    }
+}
