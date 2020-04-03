@@ -14,15 +14,17 @@ const StateWiseTabularData = ({ stateWiseTabularData }) => {
         </tr>
       </thead>
       <tbody>
-        {((stateWiseTabularData||{}).statewise||[]).map((item, index) => (
-            <>
-          {index !== 0 && <tr key={item.state}>
-            <th scope="row">{item.state}</th>
-            <td>{item.confirmed}</td>
-            <td>{item.active}</td>
-            <td>{item.recovered}</td>
-            <td>{item.deaths}</td>
-          </tr>}
+        {((stateWiseTabularData || {}).statewise || []).map((item, index) => (
+          <>
+            {index !== 0 && (
+              <tr key={item.state}>
+                <th scope="row">{item.state}</th>
+                <td>{item.confirmed}</td>
+                <td>{item.active}</td>
+                <td>{item.recovered}</td>
+                <td>{item.deaths}</td>
+              </tr>
+            )}
           </>
         ))}
       </tbody>
