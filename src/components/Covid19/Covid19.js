@@ -15,18 +15,7 @@ function Covid19({ stateWiseTabularData = {} }) {
         <Row>
           <Col>
             <h3 className="text-uppercase font-weight-800">
-              India Covid-19
-              <span className="font-size-12 source-text text-capitalize">
-                &nbsp;&nbsp;&nbsp;(Source:{' '}
-                <a
-                  href="https://www.covid19india.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  covid19india
-                </a>
-                ){' '}
-              </span>
+              India Covid-19              
             </h3>
           </Col>
         </Row>
