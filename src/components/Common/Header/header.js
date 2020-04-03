@@ -19,7 +19,7 @@ const Header = (props) => {
   return (
     <div>
       <Navbar color="dark" dark expand="md" className="header">
-        <NavbarBrand href="/">Surjeet Bhadauriya</NavbarBrand>
+        <Link to="/" className="navbar-brand">Surjeet Bhadauriya</Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>

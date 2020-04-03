@@ -13,7 +13,7 @@ componentWillMount() {
   render() {
     return (
       <div>
-        <Slider />
+        <Slider />        
       </div>
     );
   }

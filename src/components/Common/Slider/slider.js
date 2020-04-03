@@ -51,6 +51,10 @@ function Slider(props) {
             <FontAwesomeIcon className="slider-icon" icon={faLinkedinIn} />
           </a>
         </div>
+        <br />
+        <div>
+        <h5 style={{textAlign: 'center', color: 'white'}}>The site is under construction. Please visit covid19 page only.</h5>
+        </div>
       </Col>
     </Row>
   );
