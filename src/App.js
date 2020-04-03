@@ -2,7 +2,6 @@ import React from 'react';
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import './App.scss';
 import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
 import Header from './components/Common/Header/header';
 import Covid19Page from './pages/Covid19Page';
 
@@ -12,7 +11,7 @@ const App = (
     <div>
       <Header />      
       <Switch>
-        <Route exact path="/" component={HomePage} />
+        <Route exact path="/" component={Covid19Page} />
         <Route path="/about" component={HomePage} />        
         <Route path="/contact" component={HomePage} />        
         <Route path="/services" component={HomePage} />        
