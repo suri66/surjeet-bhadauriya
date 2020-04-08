@@ -1,0 +1,52 @@
+.services-bg {
+  background-image: url('/img/bradcam.png');
+  background-size: cover;
+  padding: 140px 0px;
+}
+
+.main-text-div {
+  width: 36%;
+  margin: auto;
+}
+
+.service-vertical-line {
+  height: 61px;
+  width: 1px;
+  background: gray;
+  margin-left: 227px;
+}
+
+.service-icon {
+  font-size: 60px;
+  color: blueviolet;
+}
+
+.service-icon-div {
+  width: 22%;
+  margin: auto;
+}
+
+.service-div-title {
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+.service-div-text {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 488px) {
+  .service-vertical-line {
+    margin-left: 155px;
+  }
+
+  .main-text-div {
+    width: 100%;
+    margin: auto;
+  }
+}

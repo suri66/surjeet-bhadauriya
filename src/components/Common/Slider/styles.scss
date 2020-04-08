@@ -4,17 +4,8 @@
 }
 
 .slider-img {
-  margin-top: 40px;
   opacity: 0.7;
-  height: 540px;
-  width: 540px;
-}
-
-.name-tag-div {
-  color: white;
-  position: absolute;
-  margin-left: 430px;
-  margin-top: 270px;
+  width: 100%;
 }
 
 .name-tag-title {
@@ -25,13 +16,14 @@
   font-weight: 700;
   line-height: 82px;
   margin-bottom: 9px;
+  margin-top: 100px;
 }
 
 .name-tag-position {
   display: flex;
   font-size: 26px;
   font-weight: 400;
-  margin-left: 415px;
+  margin-left: 385px;
 }
 
 .name-tag-line {
@@ -42,7 +34,8 @@
 }
 
 .slider-icon-div {
-  margin-top: 285px;
+  margin-left: 522px;
+  display: flex;
 }
 
 .slider-icon {
@@ -51,15 +44,9 @@
 }
 
 @media screen and (max-width: 488px) {
-  .name-tag-div {
-    color: white;
-    position: absolute;
-    margin-left: 0px;
-    margin-top: 382px;
-  }
-
   .name-tag-title {
     font-size: 30px;
+    margin-top: 10px;
     text-align: center;
   }
 
@@ -68,18 +55,21 @@
     font-size: 18px;
   }
 
-  .slider-img {
-    height: 344px;
-    width: 344px;
+  .name-tag-line {
+    margin-top: 13px;
   }
 
   .slider-icon-div {
-    margin-top: 155px;
-    display: flex;
-    margin-left: 245px;
+    margin-left: 205px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .name-tag-position {
+    margin-left: 93px;
   }
 
-  .mobile-view {
-    margin-left: 20px;
+  .slider-icon-div {
+    margin-left: 162px;
   }
 }

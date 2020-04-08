@@ -4,6 +4,7 @@ import './App.scss';
 import HomePage from './pages/HomePage';
 import Header from './components/Common/Header/header';
 import Covid19Page from './pages/Covid19Page';
+import ServicePage from './pages/ServicePage';
 
 
 const App = (
@@ -14,7 +15,7 @@ const App = (
         <Route exact path="/" component={Covid19Page} />
         <Route path="/about" component={HomePage} />        
         <Route path="/contact" component={HomePage} />        
-        <Route path="/services" component={HomePage} />        
+        <Route path="/services" component={ServicePage} />        
         <Route path="/portfolio" component={HomePage} />        
         <Route path="/covid19" component={Covid19Page} />        
         {/* <Route component={Notfound} /> */}

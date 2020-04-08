@@ -40,21 +40,21 @@ const Header = props => {
                 Services
               </Link>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <Link to="/portfolio" className="nav-link">
                 Portfoilio
               </Link>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <Link to="/covid19" className="nav-link">
                 Covid 19
               </Link>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <Link to="/contact" className="nav-link">
                 Contact
               </Link>
-            </NavItem>
+            </NavItem> */}
           </Nav>
           <NavbarText>
             Source:&nbsp;
