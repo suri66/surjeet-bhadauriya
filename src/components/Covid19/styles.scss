@@ -20,7 +20,13 @@
   color: gray;
 }
 
+
 @media screen and (max-width: 488px) {
+
+  .state-table {
+    padding-left: 8px !important;
+  }
+
   .covid19-main-div {
     padding: 50px 8px;
   }

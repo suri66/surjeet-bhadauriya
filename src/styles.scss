@@ -108,6 +108,10 @@ code {
   @include marginLeft(30px);
 }
 
+.font-size-10 {
+  @include fontSize(10px);
+}
+
 .font-size-12 {
   @include fontSize(12px);
 }
@@ -131,6 +135,11 @@ code {
 .font-white {
   @include fontColor(white);
 }
+
+.font-gray {
+  @include fontColor(gray);
+}
+
 
 .padding-40-main-div {
   padding: 40px 0px;

@@ -6,12 +6,14 @@ class Covid19Page extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      stateWiseTabularData: {}
+      stateWiseTabularData: {},
+      cityTabularData: {}
     };
   }
 
   componentDidMount() {
     this.getStateWiseData();
+    this.getCityData();
   }
 
   async getStateWiseData() {
@@ -20,6 +22,15 @@ class Covid19Page extends Component {
     if (data) {
         stateWiseTabularData = (data || {}).data;
       this.setState({ stateWiseTabularData });
+    }
+  }
+
+  async getCityData() {
+    let { cityTabularData } = this.state;
+    const data = await getJson('state_district_wise.json');
+    if (data) {
+      cityTabularData = (data || {}).data;
+      this.setState({ cityTabularData });
     }
   }
 

@@ -8,10 +8,10 @@ import DailyConfirmedChartData from './ChildComponent/DailyConfirmedChartData';
 import ConfirmedRecovered from './ChildComponent/ConfirmedRecovered';
 import ConfirmedDeath from './ChildComponent/ConfirmedDeath';
 
-function Covid19({ stateWiseTabularData = {} }) {
+function Covid19({ stateWiseTabularData = {}, cityTabularData = {} }) {
   return (
     <div className="covid19-main-div">
-      <FadeIn>
+      <FadeIn delay="80">
         <Row>
           <Col>
             <h3 className="text-uppercase font-weight-800">
@@ -29,8 +29,8 @@ function Covid19({ stateWiseTabularData = {} }) {
         </Row>
 
         <Row className="margin-top-40">
-          <Col xl="6" lg="6" md="6" sm="12" xs="12">
-            <StateWiseTabularData stateWiseTabularData={stateWiseTabularData} />
+          <Col xl="6" lg="6" md="6" sm="12" xs="12" className="state-table">
+            <StateWiseTabularData stateWiseTabularData={stateWiseTabularData} cityTabularData={cityTabularData} />
           </Col>
           <Col xl="6" lg="6" md="6" sm="12" xs="12">
             <DailyConfirmedChartData
