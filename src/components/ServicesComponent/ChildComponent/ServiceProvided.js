@@ -21,7 +21,7 @@ const ServiceProvided = (props) => {
         </Col>
       </Row>
       <Row className="row-margin-off padding-100-50">
-        <Col xl="3" lg="3" md="3" sm="12" xs="12" className="margin-top-20">
+        <Col xl="4" lg="4" md="4" sm="12" xs="12" className="margin-top-20">
           <Card className="service-card">
             <CardBody>
               <div className="service-icon-div">
@@ -30,14 +30,14 @@ const ServiceProvided = (props) => {
               <CardTitle className="margin-top-20">
                 <h4 className="text-align-center service-div-title">Web Application</h4>
               </CardTitle>
-              <CardText className="service-div-text">
+              {/* <CardText className="service-div-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
-              </CardText>
+              </CardText> */}
             </CardBody>
           </Card>
         </Col>
-        <Col xl="3" lg="3" md="3" sm="12" xs="12" className="margin-top-20">
+        <Col xl="4" lg="4" md="4" sm="12" xs="12" className="margin-top-20">
           <Card className="service-card">
             <CardBody>
               <div className="service-icon-div">
@@ -46,10 +46,10 @@ const ServiceProvided = (props) => {
               <CardTitle className="margin-top-20">
                 <h4 className="text-align-center service-div-title">Web design</h4>
               </CardTitle>
-              <CardText className="service-div-text">
+              {/* <CardText className="service-div-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
-              </CardText>
+              </CardText> */}
             </CardBody>
           </Card>
         </Col>
@@ -62,10 +62,10 @@ const ServiceProvided = (props) => {
               <CardTitle className="margin-top-20">
                 <h4 className="text-align-center service-div-title">Software Development</h4>
               </CardTitle>
-              <CardText className="service-div-text">
+              {/* <CardText className="service-div-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
-              </CardText>
+              </CardText> */}
             </CardBody>
           </Card>
         </Col>
