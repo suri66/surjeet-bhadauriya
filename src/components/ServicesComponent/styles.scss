@@ -40,13 +40,23 @@
   margin-bottom: 0;
 }
 
+.service-card {
+  padding: 20px;
+}
+
 @media screen and (max-width: 488px) {
   .service-vertical-line {
-    margin-left: 155px;
+    margin-left: 194px;
   }
 
   .main-text-div {
     width: 100%;
     margin: auto;
   }
+
+
+.service-card {
+  padding: 0px;
+  // margin-top: 10px;
+}
 }

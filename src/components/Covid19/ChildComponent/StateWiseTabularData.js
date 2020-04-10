@@ -7,10 +7,10 @@ const StateWiseTabularData = ({ stateWiseTabularData, cityTabularData }) => {
 
   return (
     <Table size="sm">
-      <thead>
+      <thead className="font-size-15">
         <tr>
           <th></th>
-          <th>State</th>
+          <th >State</th>
           <th>Confirmed</th>
           <th>Active</th>
           <th>Recovered</th>
@@ -39,7 +39,7 @@ const StateWiseTabularData = ({ stateWiseTabularData, cityTabularData }) => {
                       />
                     )}
                   </td>
-                  <td className="state-label-color font-weight-700">
+                  <td className="state-label font-weight-700">
                     {item.state}
                   </td>
                   <th style={{ color: '#dc3545' }} scope="row">
@@ -80,7 +80,7 @@ const StateWiseTabularData = ({ stateWiseTabularData, cityTabularData }) => {
                                 cityTabularData[item.state].districtData
                               ).map((district) => (
                                 <tr>
-                                  <td className="state-label-color font-weight-700">
+                                  <td className="state-label font-weight-700">
                                     {district}
                                   </td>
                                   <th style={{ color: '#dc3545' }} scope="row">

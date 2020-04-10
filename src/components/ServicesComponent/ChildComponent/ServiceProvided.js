@@ -21,8 +21,8 @@ const ServiceProvided = (props) => {
         </Col>
       </Row>
       <Row className="row-margin-off padding-100-50">
-        <Col>
-          <Card className="padding-20">
+        <Col xl="3" lg="3" md="3" sm="12" xs="12" className="margin-top-20">
+          <Card className="service-card">
             <CardBody>
               <div className="service-icon-div">
                 <FontAwesomeIcon className="service-icon" icon={faLayerGroup} />
@@ -37,8 +37,8 @@ const ServiceProvided = (props) => {
             </CardBody>
           </Card>
         </Col>
-        <Col>
-          <Card className="padding-20">
+        <Col xl="3" lg="3" md="3" sm="12" xs="12" className="margin-top-20">
+          <Card className="service-card">
             <CardBody>
               <div className="service-icon-div">
                 <FontAwesomeIcon className="service-icon" icon={faLayerGroup} />
@@ -53,8 +53,8 @@ const ServiceProvided = (props) => {
             </CardBody>
           </Card>
         </Col>
-        <Col>
-          <Card className="padding-20">
+        <Col className="margin-top-20">
+          <Card className="service-card">
             <CardBody>
               <div className="service-icon-div">
                 <FontAwesomeIcon className="service-icon" icon={faLayerGroup} />

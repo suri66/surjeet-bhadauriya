@@ -13,22 +13,25 @@
 }
 
 .source-text {
-    color: gray;
-}
-
-.state-label-color {
   color: gray;
 }
 
+.state-label {
+  color: gray;
+  font-size: 15px;
+}
 
 @media screen and (max-width: 488px) {
+  .state-label {
+    font-size: 13px;
+  }
 
   .state-table {
     padding-left: 8px !important;
   }
 
   .covid19-main-div {
-    padding: 50px 8px;
+    padding: 50px 10px;
   }
 
   .main-div {
