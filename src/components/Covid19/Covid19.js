@@ -15,7 +15,12 @@ function Covid19({ stateWiseTabularData = {}, cityTabularData = {} }) {
         <Row>
           <Col>
             <h3 className="text-uppercase font-weight-800">
-              India Covid-19              
+              <img
+                src="/img/India-Flag-icon.png"                
+                alt="India Covid 19"
+                className="img-india-icon"
+              />
+              &nbsp;India Covid-19
             </h3>
           </Col>
         </Row>
@@ -30,7 +35,10 @@ function Covid19({ stateWiseTabularData = {}, cityTabularData = {} }) {
 
         <Row className="margin-top-40">
           <Col xl="6" lg="6" md="6" sm="12" xs="12" className="state-table">
-            <StateWiseTabularData stateWiseTabularData={stateWiseTabularData} cityTabularData={cityTabularData} />
+            <StateWiseTabularData
+              stateWiseTabularData={stateWiseTabularData}
+              cityTabularData={cityTabularData}
+            />
           </Col>
           <Col xl="6" lg="6" md="6" sm="12" xs="12">
             <DailyConfirmedChartData

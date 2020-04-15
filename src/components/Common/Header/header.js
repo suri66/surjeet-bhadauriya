@@ -19,7 +19,8 @@ const Header = props => {
     <div>
       <Navbar color="dark" dark expand="md" className="header">
         <Link to="/" className="navbar-brand">
-          Surjeet Bhadauriya
+          {/* Surjeet Bhadauriya */}
+          COVID19 - INDIA
         </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -32,6 +33,11 @@ const Header = props => {
             <NavItem>
               <Link to="/about" className="nav-link">
                 About
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/team" className="nav-link">
+                Team
               </Link>
             </NavItem>
             <NavItem>

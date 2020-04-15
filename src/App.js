@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import Header from './components/Common/Header/header';
 import Covid19Page from './pages/Covid19Page';
 import ServicePage from './pages/ServicePage';
+import TeamPage from './pages/TeamPage';
 
 
 const App = (
@@ -18,6 +19,7 @@ const App = (
         <Route path="/services" component={ServicePage} />        
         <Route path="/portfolio" component={HomePage} />        
         <Route path="/covid19" component={Covid19Page} />        
+        <Route path="/team" component={TeamPage} />        
         {/* <Route component={Notfound} /> */}
       </Switch>
       {/* <Footer /> */}
