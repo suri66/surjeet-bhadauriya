@@ -16,7 +16,7 @@ function Covid19({ stateWiseTabularData = {}, cityTabularData = {} }) {
           <Col>
             <h3 className="text-uppercase font-weight-800">
               <img
-                src="/img/India-Flag-icon.png"                
+                src="/img/India-Flag-icon.png"
                 alt="India Covid 19"
                 className="img-india-icon"
               />
@@ -60,6 +60,17 @@ function Covid19({ stateWiseTabularData = {}, cityTabularData = {} }) {
             />
           </Col>
         </Row>
+        <div style={{ marginTop: '20px', fontSize: '15px' }}>
+          Source:&nbsp;
+          <a
+            href="https://www.covid19india.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'underline' }}
+          >
+            covid19india
+          </a>
+        </div>
       </FadeIn>
     </div>
   );

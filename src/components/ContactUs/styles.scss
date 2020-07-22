@@ -1,0 +1,42 @@
+.main-text-div {
+  width: 36%;
+  margin: auto;
+}
+
+.contact-vertical-line {
+  height: 61px;
+  width: 1px;
+  background: gray;
+  margin-left: 227px;
+}
+
+.contact-fb-icon {
+  color: blue;
+  width: 30px;
+}
+
+.contact-instgram-icon {
+  color: #3f729b;
+  width: 30px;
+}
+
+.contact-twitter-icon {
+  color: #00acee;
+  width: 30px;
+}
+
+.contact-linkedin-icon {
+  color: #0e76a8;
+  width: 30px;
+}
+
+@media screen and (max-width: 488px) {
+  .contact-vertical-line {
+    margin-left: 165px;
+  }
+
+  .main-text-div {
+    width: 100%;
+    margin: auto;
+  }
+}

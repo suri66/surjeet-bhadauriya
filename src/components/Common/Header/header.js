@@ -19,8 +19,7 @@ const Header = props => {
     <div>
       <Navbar color="dark" dark expand="md" className="header">
         <Link to="/" className="navbar-brand">
-          {/* Surjeet Bhadauriya */}
-          COVID19 - INDIA
+          Surjeet Bhadauriya
         </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -34,12 +33,12 @@ const Header = props => {
               <Link to="/about" className="nav-link">
                 About
               </Link>
-            </NavItem>
+            </NavItem>  
             <NavItem>
-              <Link to="/team" className="nav-link">
-                Team
+              <Link to="/contact" className="nav-link">
+                Contact
               </Link>
-            </NavItem>
+            </NavItem>            
             <NavItem>
               <Link to="/services" className="nav-link">
                 Services
@@ -60,18 +59,7 @@ const Header = props => {
                 Contact
               </Link>
             </NavItem> */}
-          </Nav>
-          <NavbarText>
-            Source:&nbsp;
-            <a
-              href="https://www.covid19india.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{textDecoration: 'underline'}}
-            >
-              covid19india
-            </a>
-          </NavbarText>
+          </Nav>          
         </Collapse>
       </Navbar>
     </div>
