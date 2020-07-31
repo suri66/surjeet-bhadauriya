@@ -120,7 +120,8 @@ class News extends Component {
             </div>
           </Col>
           <Col>
-            <h5>Top Stories | <span className="text-capitalize font-size-15">{news.category}</span></h5>
+            Coming Soon
+            {/* <h5>Top Stories | <span className="text-capitalize font-size-15">{news.category}</span></h5>
 
             {isLoading ? (
               <div>
@@ -171,7 +172,6 @@ class News extends Component {
                                 <TimeAgo datetime={article.publishedAt} />
                               </small>
                             </CardText>
-                            {/* <CardLink href="#">View full news</CardLink> */}
                           </Col>
                         </Row>
                       </Card>
@@ -189,7 +189,7 @@ class News extends Component {
                   </a>
                 </div>
               </>
-            )}
+            )} */}
           </Col>
         </Row>
       </div>
