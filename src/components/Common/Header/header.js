@@ -29,11 +29,11 @@ const Header = props => {
                 Home
               </Link>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <Link to="/about" className="nav-link">
                 About
               </Link>
-            </NavItem>  
+            </NavItem>   */}
             <NavItem>
               <Link to="/contact" className="nav-link">
                 Contact
@@ -54,11 +54,11 @@ const Header = props => {
                 Covid 19
               </Link>
             </NavItem>
-            {/* <NavItem>
-              <Link to="/contact" className="nav-link">
-                Contact
+            <NavItem>
+              <Link to="/news" className="nav-link">
+                News
               </Link>
-            </NavItem> */}
+            </NavItem>
           </Nav>          
         </Collapse>
       </Navbar>

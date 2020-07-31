@@ -1,6 +1,6 @@
-import constants from '../constants/constant.url';
+import constants from '../constants/constant';
 const axios = require('axios');
 
 export function getJson(jsonFile) {
-    return axios.get(`${constants.covid19Url}/${jsonFile}`);
+    return axios.get(`${constants.COVID19URL}/${jsonFile}`);
 }
