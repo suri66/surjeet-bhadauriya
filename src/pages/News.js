@@ -18,13 +18,13 @@ class News extends Component {
     this.state = {
       isLoading: false,
       news: {
-        category: 'all',
+        category: 'nation',
         country: 'India',
         data: {},
       },
       categories: [
         {
-          label: 'all',
+          label: 'nation',
           color: 'primary',
         },
         {
@@ -56,7 +56,7 @@ class News extends Component {
   }
 
   componentDidMount() {
-    this.getNewsData({ category: '' });
+    this.getNewsData({ category: 'nation' });
   }
 
   onChangeCategory = (value) => {
@@ -120,8 +120,8 @@ class News extends Component {
             </div>
           </Col>
           <Col>
-            Coming Soon
-            {/* <h5>Top Stories | <span className="text-capitalize font-size-15">{news.category}</span></h5>
+            {/* Coming Soon */}
+            <h5>Top Stories | <span className="text-capitalize font-size-15">{news.category}</span></h5>
 
             {isLoading ? (
               <div>
@@ -134,7 +134,7 @@ class News extends Component {
             ) : (
               <>
                 {' '}
-                {news.data && news.data.totalResults > 0 && (
+                {news.data && news.data.articleCount > 0 && (
                   <>
                     {(news.data.articles || []).map((article, index) => (
                       <Card
@@ -147,10 +147,10 @@ class News extends Component {
                         <Row>
                           <Col xl="2" lg="2" md="2" sm="12" xs="12">
                             <CardImg
-                              className="cursor-pointer"
+                              className="cursor-pointer custom-card-img"
                               onClick={() => window.open(article.url, '_blank')}
                               src={
-                                article.urlToImage || '/img/no-image-icon-6.png'
+                                article.image || '/img/no-image-icon-6.png'
                               }
                               alt={article.title}
                             ></CardImg>
@@ -178,7 +178,7 @@ class News extends Component {
                     ))}
                   </>
                 )}
-                <div>
+                {/* <div>
                   Source:{' '}
                   <a
                     target="_blank"
@@ -187,9 +187,9 @@ class News extends Component {
                   >
                     NewsAPI
                   </a>
-                </div>
+                </div> */}
               </>
-            )} */}
+            )}
           </Col>
         </Row>
       </div>
