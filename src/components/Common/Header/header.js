@@ -29,11 +29,11 @@ const Header = props => {
                 Home
               </Link>
             </NavItem>
-            {/* <NavItem>
+            <NavItem>
               <Link to="/about" className="nav-link">
                 About
               </Link>
-            </NavItem>   */}
+            </NavItem>  
             <NavItem>
               <Link to="/contact" className="nav-link">
                 Contact

@@ -14,8 +14,8 @@ const App = (
     <div>
       <Header />      
       <Switch>
-        <Route exact path="/" component={HomePage} />
-        {/* <Route path="/about" component={HomePage} />         */}
+        <Route exact path="/" component={News} />
+        <Route path="/about" component={HomePage} />        
         <Route path="/contact" component={ContactUsPage} />        
         <Route path="/services" component={ServicePage} />        
         <Route path="/portfolio" component={HomePage} />        
